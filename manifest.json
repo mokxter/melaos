@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Melaos",
-  "version": "0.2",
+  "version": "0.3",
   "content_scripts": [
     {
       "matches": [
-        "http://kissmanga.com/manga/*"
+        "http://kissmanga.com/Manga/*"
       ],
       "js": ["content.js"]
     }
